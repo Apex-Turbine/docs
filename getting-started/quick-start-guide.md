@@ -1,13 +1,11 @@
 # Quick Start Guide
 
-The Quick Start Guide is available as&#x20;
+The Quick Start Guide is available as
 
-1. [a video guide](quick-start-guide.md#id-1.-quick-start-video) or&#x20;
+1. [a video guide](quick-start-guide.md#id-1.-quick-start-video) or
 2. [a step-by-step guide with text & screenshots](quick-start-guide.md#id-2.-step-by-step-text-and-screenshot-guide)
 
 ## 1. Quick Start Video:
-
-
 
 {% embed url="https://youtu.be/rkK3mgWYRoQ?si=l4FPtmFeR6gKMDHo" %}
 
@@ -15,7 +13,7 @@ The Quick Start Guide is available as&#x20;
 
 ## DX+ Designer
 
-<figure><img src="../.gitbook/assets/designer.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../dxplus-doc/src/.gitbook/assets/designer.png" alt=""><figcaption></figcaption></figure>
 
 Upon launching DX+ we see the Designer. From here we can drag down input elements and begin building a design.
 
@@ -23,7 +21,7 @@ Upon launching DX+ we see the Designer. From here we can drag down input element
 
 For this example we will use the VTI DSA Device element.
 
-<figure><img src="../.gitbook/assets/VTIelementPanel.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../dxplus-doc/src/.gitbook/assets/VTIelementPanel.png" alt=""><figcaption></figcaption></figure>
 
 Once the element is created, we can connect to the device.
 
@@ -32,9 +30,7 @@ Once the element is created, we can connect to the device.
 3. Click the Pull Setup button to pull current channel settings, time stamps, and any additional information from the device
 4. The element's badge is updated to show the total number of channels
 
-
-
-<figure><img src="../.gitbook/assets/VTIpanel1&#x26;2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../dxplus-doc/src/.gitbook/assets/VTIpanel1&#x26;2.png" alt=""><figcaption></figcaption></figure>
 
 ## Taking a look at some of the other VTI Settings:
 
@@ -43,7 +39,7 @@ Once the element is created, we can connect to the device.
   * If you disable this and if the calibration is invalid, then it will not allow you to run. You'll get an error message on your setup step.
 * FIFO Mode
   * Stop (the default setting)
-    * If the FIFO overflows, it's going to stop the acquisition.&#x20;
+    * If the FIFO overflows, it's going to stop the acquisition.
   * Overwrite
     * Overwrites the data in the FIFO . This prevents an overflow but allows for data loss.
   * Wait
@@ -54,13 +50,13 @@ Once the element is created, we can connect to the device.
     * Function
       * selection of IEPE enables a field for setting Excitation Current
       * selection of Strain enables all available options for Strain mode (gauge resistance, gauge factor, etc.)
-    * Sample Rate&#x20;
+    * Sample Rate
       * all channels on a card must have the same sample rate
     * Coupling
     * Mode
     * Range
 
-<figure><img src="../.gitbook/assets/addViewerOutput.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../dxplus-doc/src/.gitbook/assets/addViewerOutput.png" alt=""><figcaption></figcaption></figure>
 
 ## Output: Viewer Element
 
@@ -76,7 +72,7 @@ Other outputs are also available
 * DX+ Publisher - allows you to publish data onto the network which can be seen by the DX+ Standalone Viewer
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/FFT.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../dxplus-doc/src/.gitbook/assets/FFT.png" alt=""><figcaption></figcaption></figure>
 
 ## Processing: FFT Element
 
@@ -88,7 +84,7 @@ Next we will add an FFT element to process the data
 4. Click and drag from the VTI Device element to the FFT element and release the mouse button
 5. Now data will flow through the design in the direction of the arrow you created
 
-<figure><img src="../.gitbook/assets/disableChannels.png" alt="" width="441"><figcaption></figcaption></figure>
+<figure><img src="../dxplus-doc/src/.gitbook/assets/disableChannels.png" alt="" width="441"><figcaption></figcaption></figure>
 
 ## Disabling Channels
 
@@ -104,7 +100,7 @@ When the design is set up according to your needs, it would be wise to save the 
 3. Choose a filename and location
 4. Click Save
 
-<figure><img src="../.gitbook/assets/SubmitDesign.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../dxplus-doc/src/.gitbook/assets/SubmitDesign.png" alt=""><figcaption></figcaption></figure>
 
 ## Submit Design
 
@@ -118,7 +114,7 @@ Changes made to an element's settings requires the design to be re-submitted
 
 ## DX+ Viewer
 
-<figure><img src="../.gitbook/assets/Viewer.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../dxplus-doc/src/.gitbook/assets/Viewer.png" alt=""><figcaption></figcaption></figure>
 
 1. Go to the Viewer by clicking the Viewer tab on the leftmost edge of the DX+ window
 2. Notice the channels appear in the Signal Pane on the left
@@ -131,7 +127,7 @@ Changes made to an element's settings requires the design to be re-submitted
 7. Repeat the process for the FFT processed signals and select Mag+Env as the plot type
 8. The result should look like this:
 
-<figure><img src="../.gitbook/assets/2x3Plots.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../dxplus-doc/src/.gitbook/assets/2x3Plots.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Available plot types are determined by the data type of the underlying stream. E.g.
@@ -140,13 +136,13 @@ Available plot types are determined by the data type of the underlying stream. E
 * Time-based data can be plotted as Time, History, Strip, & Graphic (Gauge, Text, Thermometer, LEDs)
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/DAQcontrol.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../dxplus-doc/src/.gitbook/assets/DAQcontrol.png" alt=""><figcaption></figcaption></figure>
 
 ## DAQ Control
 
 1. Navigate to the DAQ Control tab at the top of the ribbon bar
 2. Click the Start button in the upper left corner
-3. DX+ will start acquiring data from the device&#x20;
+3. DX+ will start acquiring data from the device
 4. Notice the plots are showing the data in realtime
 5. Return to the Viewer tab and change the Grid configuration to be 2x3 to maximize the area of your plots on the canvas
 6. Return to the DAQ Control tab and take note of the System Usage gauges
@@ -154,7 +150,6 @@ Available plot types are determined by the data type of the underlying stream. E
 
 ## Conclusion
 
-By following this guide, you should have an understanding and familiarity with the basic operations of DX+, but of course there are many more features and use cases to be explored.&#x20;
+By following this guide, you should have an understanding and familiarity with the basic operations of DX+, but of course there are many more features and use cases to be explored.
 
 Please continue through the documentation, search for terms, or reach out to us if you have further questions.
-

@@ -11,14 +11,15 @@ Produces single precision vectors for each channel.
 ## JSON Setup Keys
 
 Component specific global keys:
-- samplerate
-	- Rate, in Hz, that the component should produce samples for each channel.
-	- Default, 102.4kHz
+
+* samplerate
+  * Rate, in Hz, that the component should produce samples for each channel.
+  * Default, 102.4kHz
 
 This component follows standard input keys:
-- name
-- units
-- size
 
-[Back](PhoenixComponents.md)
+* name
+* units
+* size
 
+[Back](../../../phoenix-doc/Components/Inputs/PhoenixComponents.md)

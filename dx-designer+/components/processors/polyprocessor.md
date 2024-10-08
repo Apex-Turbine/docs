@@ -13,16 +13,17 @@ Produces single precision vectors containing polynomial mapped result.
 ## JSON Setup Keys
 
 This component follows standard input keys:
-- name
-- units
-- streamid
-- sourcename
-- size
+
+* name
+* units
+* streamid
+* sourcename
+* size
 
 Component specific input keys:
-- poly
-	- Vector of coefficients starting from the highest order
-	- No default, **Must** be present or channel will be ignored
 
-[Back](PhoenixComponents.md)
+* poly
+  * Vector of coefficients starting from the highest order
+  * No default, **Must** be present or channel will be ignored
 
+[Back](../../../phoenix-doc/Components/Processors/PhoenixComponents.md)
